@@ -28,10 +28,167 @@
   color: #61dafb;
 }
 
+/* ---------Start Header-------  */
+.nav-link {
+  color: #263238d3;
+  padding-right: 14px !important;
+  padding-left: 14px !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  color: #263238;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* .navbar-brand span{
+  color: darkgray;
+} */
+.nav-icon {
+  color: #26323888;
+  font-size: 12px;
+}
+
+.blog-icon {
+  color: #4CAF4F;
+  font-size: 12px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler i {
+  color: #4CAF4F !important;
+}
+
+.nav-link:hover {
+  color: #4CAF4F;
+}
+
+.navbar-brand:hover {
+  color: #4CAF4F;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #4CAF4F;
+  font-size: 16px;
+  padding: 7px 20px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 40px;
+
+}
+
+.logo-img {
+  height: 43px;
+  width: 45px;
+}
+
+
+.navbar-brand {
+  margin-right: 4px;
+}
+
+/* / ---------End Header------- / 
+
+/ ---------start banner-wrapper------- /  */
+
+.banner-wrapper span {
+  color: #4CAF4F;
+}
+
+h1 {
+  color: #263238;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+h3 {
+  color: #263238b2;
+}
+
+/* / ---------End banner-wrapper------- / */
+body {
+  background-color: #F7F7F7;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+
+.blog-lists h2 {
+  color: #263238;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.blog-lists p {
+  color: #263238b2;
+  font-weight: 500;
+
+}
+
+.blog-lists span {
+  color: #4CAF4F;
+}
+
+h7 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #263238b2;
+}
+
+/* .blog-lists .blog-color:hover{
+  color: #4CAF4F;
+} */
+.blog-btn {
+  text-decoration: none;
+  color: #4CAF4F;
+  background-color: #F7F7F7;
+  font-size: 16px;
+  padding: 7px 16px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 40px;
+  border: 2px solid #4CAF4F;
+}
+
+.nav-btn:hover {
+
+  background-color: #f803032f;
+
+
+}
+
+.blog-color:hover {
+  background-color: #f803032f;
+}
+
+.blog-color:hover span {
+  color: #f803038e !important;
+}
+
+.footer-icon i {
+  color: #263238b2;
+  ;
+  text-decoration: none !important;
+  margin-right: 10px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,4 +1,4 @@
-export const post_list = [
+export const postlisting = [
     {
         "userId": 1,
         "id": 1,
@@ -602,5 +602,5 @@ export const post_list = [
 ]
 
 export const getpostdetails = (post_id) => {
-    return post_list.find((obj) => obj.id == post_id);
+    return postlisting.find((obj_id) => obj_id === post_id);
 };
